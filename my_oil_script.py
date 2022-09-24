@@ -21,4 +21,5 @@ for i, pair in enumerate(data.items(), 1):
     ws[f'A{i}'] = key
     ws[f'B{i}'] = value
 wb.save('platform_info.xlsx')
+print("platform_info.xlsx was created and now it is located in exe directory")
 input('Press ENTER to escape')
